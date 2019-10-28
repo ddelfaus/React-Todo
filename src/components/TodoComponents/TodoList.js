@@ -4,10 +4,11 @@ import React from 'react';
 
 
 const TodoList = props => {
+    console.log("fewaefaw",props.todo)
     return(
         <div>
           {props.todo.map(item => (
-              <h1>{props.item.task}</h1>
+              <h1>{item.task}</h1>
           ))}
 
 

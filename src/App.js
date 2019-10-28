@@ -25,6 +25,8 @@ constructor(){
   super();
   this.state = {
     todo: data
+    
+
   }
   this.setState({
    
@@ -36,7 +38,7 @@ constructor(){
     return (
       <div>
         <h2>Welcome to your Todo App!</h2>
-        <TodoList task = {this.task}  />
+        <TodoList todo = {this.state.todo}  />
       </div>
     );
   }
